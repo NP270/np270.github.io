@@ -125,6 +125,10 @@
   vertical-align: middle;
 }
 
+.card .bottom .bottom-bottom .social-links-container a {
+  all:unset;
+}
+
 .card .bottom .bottom-bottom .social-links-container svg:hover {
   fill: #3b82f6;
   transform: scale(1.2);
