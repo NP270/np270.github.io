@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>BCUOA | Home</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/loader.css" />
+
+        <meta http-equiv="refresh" content="10; url=/home" />
+
+        <style>
+
+            body.loading-redirect {
+                overflow: hidden;
+            }
+
+        </style>
+    </head>
+
+    <body class="landing is-preload dark loading-redirect">
+
+        <div id="loading-screen">
+            <div class="spinner">
+                <div class="spinner1"></div>
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const loadingScreen = document.getElementById('loading-screen');
+                const body = document.body;
+
+                function hideLoaderAndRedirect() {
+                    loadingScreen.classList.add('hidden');
+					
+                    setTimeout(() => {
+                        window.location.replace('/home');
+                        body.classList.remove('loading-redirect');
+                    }, 500);
+                }
+
+                hideLoaderAndRedirect();
+            });
+        </script>
+
+    </body>
+</html>

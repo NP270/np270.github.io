@@ -1,0 +1,241 @@
+/* Light Mode Colors */
+
+	body.light {
+			background-color: #f2efef;
+			color: #555555;
+	}
+
+	body.light #main-wrapper svg path {
+			fill: #f2efef;
+	}
+	
+	body.light #main-wrapper #main .box {
+			background: #ffffff;
+			box-shadow: #D1D1D1;
+	}
+
+	body.light h2,
+	body.light h3,
+	body.light h4,
+	body.light h5,
+	body.light h6 {
+			color: #333333;
+	}
+
+	body.light #main-wrapper #main .box .major p{
+			color:#4d4d4d;
+	}
+
+	body.light #main-wrapper {
+			background: linear-gradient(to bottom, transparent 0em, transparent 14em, #f2efef 14em, #f2efef 100%);
+	}
+
+	body.light .footer {
+			background: #f2efef;
+			box-shadow: #007BFF;
+	}
+
+	body.light .footer-divider {
+			background-color: #121212;
+	}
+
+	body.light .copyright {
+			color: #333333;
+	}
+
+	body.light .btn-ig,
+	body.light .btn-fb,
+	body.light .btn-wp,
+	body.light .btn-x {
+			--bs-btn-color: #000000;
+			--bs-btn-bg: #f1f3f5;
+			--bs-btn-border-color: #9a9a9a;
+	}
+
+	body.light #navButton .toggle:before {
+			background: #ffffff;
+			color: #333333;
+	}
+
+	body.light #navPanel {
+			background: rgba(255, 255, 255, 0.8);
+	}
+
+	body.light #navPanel .link.depth-0 {
+			color: #333333;;
+	}
+
+
+
+	body.light #banner .inner,
+	body.light #banner h2 {
+			color: #ffffff;;
+	}
+	
+	body.light .wrapper.spotlight {
+		background-color: #F7F7F7;
+	}
+
+		body.light .wrapper.spotlight:before,
+		body.light .wrapper.spotlight:after {
+			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23F7F7F7%3B' /%3E%3C/svg%3E");
+		}
+
+		body.light .wrapper.spotlight:before {
+			box-shadow: inset 0 -1px 0 0 #F7F7F7, 0 1px 0 0 #F7F7F7;
+		}
+
+		body.light .wrapper.spotlight:after {
+			box-shadow: inset 0 -1px 0 0 #F7F7F7, 0 1px 0 0 #F7F7F7;
+		}
+
+	body.light .wrapper.spotlight.style2 {
+			background-color: #EDEDED;
+		}
+
+			body.light .wrapper.spotlight.style2:before,
+			body.light .wrapper.spotlight.style2:after {
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23EDEDED%3B' /%3E%3C/svg%3E");
+			}
+
+			body.light .wrapper.spotlight.style2:before {
+				box-shadow: inset 0 -1px 0 0 #EDEDED, 0 1px 0 0 #EDEDED;
+			}
+
+			body.light .wrapper.spotlight.style2:after {
+				box-shadow: inset 0 -1px 0 0 #EDEDED, 0 1px 0 0 #EDEDED;
+			}
+
+		body.light .wrapper.spotlight.style3 {
+			background-color: #F7F7F7;
+		}
+
+			body.light .wrapper.spotlight.style3:before,
+			body.light .wrapper.spotlight.style3:after {
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23F7F7F7%3B' /%3E%3C/svg%3E");
+			}
+
+			body.light .wrapper.spotlight.style3:before {
+				box-shadow: inset 0 -1px 0 0 #F7F7F7, 0 1px 0 0 #F7F7F7;
+			}
+
+			body.light .wrapper.spotlight.style3:after {
+				box-shadow: inset 0 -1px 0 0 #F7F7F7, 0 1px 0 0 #F7F7F7;
+				background-color: #F7F7F7;
+			}
+
+		body.light h1.major,
+		body.light h2.major,
+		body.light h3.major,
+		body.light h4.major,
+		body.light h5.major,
+		body.light h6.major {
+			padding-bottom: 1em;
+			border-bottom: solid 2px rgba(0, 0, 0, 0.125);
+		}
+
+	body.light .wrapper .title:before,
+	body.light .wrapper .title:after {
+		background: url("images/shadow_lg.png");
+	}
+
+	body.light .wrapper.style1 {
+		background: #F7F7F7 url("images/overlay_const.png");
+		color: #555555;
+	}
+
+	body.light .wrapper.style1 .title {
+		background: #F7F7F7 url("images/overlay_const.png");
+		color: #333333;
+	}
+
+	body.light .wrapper.style2 {
+		background: #EDEDED url("images/overlay_const.png");
+		color: #555555;
+	}
+
+	body.light .wrapper.style2 .title {
+		background: #EDEDED url("images/overlay_const.png");
+		color: #333333;
+	}
+
+	body.light #intro p.style2 {
+		color: #333333;
+	}
+
+	body.light #main p {
+		color: #333333;
+	}
+
+	body.light #highlights .highlight h3 {
+		color: #333333;
+	}
+
+	body.light button.style1,
+	body.light .button.style1 {
+		background: #d4d5d5 url("images/overlay_const.png");
+		color: #000000;
+	}
+
+/* contact cards */
+
+	body.light .card {
+		background: #dadada;
+		box-shadow: #604b4a1f 0px 70px 30px -50px
+	}
+
+	body.light .card .mail svg {
+		stroke: #555555;
+	}
+
+	body.light .card .mail svg:hover {
+		stroke: #000000;
+	}
+
+	body.light .card .profile-pic {
+		border: 0px solid #d4d5d5;
+	}
+
+	body.light .card .bottom {
+		background: #d4d5d5;
+		box-shadow: rgba(96, 75, 74, 0.188) 0px 5px 5px 0px inset;
+	}
+
+	body.light .card .bottom .content .name,
+	body.light .card .bottom .content .about-me {
+		color: #333333;
+	}
+
+	body.light .card .bottom .bottom-bottom .social-links-container svg {
+		fill: #555555;
+		filter: drop-shadow(0 5px 5px rgba(165, 132, 130, 0.133));
+	}
+
+	body.light .card .bottom .bottom-bottom .social-links-container svg:hover {
+		fill: #000000;
+	}
+
+	body.light .card:hover .profile-pic {
+		border: 7px solid #d4d5d5;
+		box-shadow: rgba(96, 75, 74, 0.188) 0px 5px 5px 0px;
+	}
+
+/* Accordion */
+
+	body.light .accordion {
+		--bs-accordion-color: #555555;
+		--bs-accordion-bg: #fafafa;
+		--bs-accordion-border-color: #e5e7eb;
+		--bs-accordion-btn-color: #555555;
+		--bs-accordion-btn-bg: #fafafa;
+		--bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23555555'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+		--bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23333333'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+		--bs-accordion-btn-focus-border-color: #dadada;
+		--bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #e8e8e83d;
+		--bs-accordion-active-color: #333333;
+		--bs-accordion-active-bg: #dadada;
+	}
+
+	body.light .accordion-item {
+		border: var(--bs-accordion-border-width) solid #e5e7eb;
+	}
