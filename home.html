@@ -121,9 +121,10 @@
 							</section>
 
 							<section class="box special features countdown-wrapper">
-								<div class="background-image">
-									<img src="images/pic01.jpg" alt="">
-								</div>
+									<div class="background-vortex">
+										<canvas id="vortex"></canvas>
+									</div>
+								<div class="overlay"></div>
 								<div class="coming-soon">
 									<h4>Coming Soon</h4>
 									<h2>Constant</h2>
@@ -138,6 +139,9 @@
 									data-background="#5c070f" 
 									data-digitscolor="#EAEAEA" 
 									data-unitscolor="#EAEAEA">&nbsp;</a>
+
+									<button class="constbutton">Registrations</button>
+
 								</div>
 							</section>
 
@@ -225,6 +229,8 @@
 			}
 			});
 		  	</script>
+			<script src="https://unpkg.com/simplex-noise@2.4.0/simplex-noise.js"></script>
+			<script src="assets/js/vortex.js"></script>
 
 	</body>
 </html>
