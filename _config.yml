@@ -1,0 +1,9 @@
+index_files:
+  - home.html
+  - index.html
+
+permalink: pretty
+
+exclude:
+  - README.md
+  - .gitignore

@@ -1,0 +1,9 @@
+1,Starlight School,ST001,selected,15,18,20,14,10,77
+2,Orion Academy,OR002,hold,12,19,17,11,8,67
+3,Galaxy High,GH003,nonselected,10,12,15,9,7,53
+4,Starlight School,ST001,selected,15,18,20,14,10,77
+5,Orion Academy,OR002,hold,12,19,17,11,8,67
+6,Galaxy High,GH003,nonselected,10,12,15,9,7,53
+7,Starlight School,ST001,selected,15,18,20,14,10,77
+8,Orion Academy,OR002,hold,12,19,17,11,8,67
+9,Galaxy High,GH003,nonselected,10,12,15,9,7,53

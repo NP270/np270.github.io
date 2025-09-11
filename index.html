@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>BCUOA | Home</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/loader.css" />
+        <link rel="icon" href="/favicon-90.png" sizes="90x90" type="image/png">
+		<link rel="icon" href="/favicon-120.png" sizes="120x120" type="image/png">
+		<link rel="apple-touch-icon" href="/favicon-120.png">
+
+        <meta http-equiv="refresh" content="10; url=/home" />
+
+        <style>
+
+            body.loading-redirect {
+                overflow: hidden;
+            }
+
+        </style>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                "name": "Bandaranayake College Union of Astronomy (BCUOA)",
+                "url": "https://bcuoa.org",
+                "logo": "https://bcuoa.org/favicon-120.png",
+                "sameAs": [
+                    "https://www.facebook.com/BCUOA",
+                    "https://www.instagram.com/bcuoa"
+                    ]
+            }
+        </script>
+    </head>
+
+    <body class="landing is-preload dark loading-redirect">
+
+        <div id="loading-screen">
+            <div class="spinner">
+                <div class="spinner1"></div>
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const loadingScreen = document.getElementById('loading-screen');
+                const body = document.body;
+
+                function hideLoaderAndRedirect() {
+                    loadingScreen.classList.add('hidden');
+					
+                    setTimeout(() => {
+                        window.location.replace('/home');
+                        body.classList.remove('loading-redirect');
+                    }, 500);
+                }
+
+                hideLoaderAndRedirect();
+            });
+        </script>
+
+    </body>
+</html>

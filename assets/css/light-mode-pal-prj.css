@@ -1,0 +1,83 @@
+/* Light Mode Colors (Projects) */
+
+    body.light {
+        background-color: #f2efef;
+        color: #555555;
+    }
+
+    body.light .footer {
+        background: #f2efef;
+        box-shadow: #007BFF;
+    }
+
+    body.light .footer-divider {
+        background-color: #121212;
+    }
+
+    body.light .copyright {
+        color: #333333;
+    }
+
+    body.light .btn-ig,
+    body.light .btn-fb,
+    body.light .btn-wp,
+    body.light .btn-x {
+        --bs-btn-color: #000000;
+        --bs-btn-bg: #f1f3f5;
+        --bs-btn-border-color: #9a9a9a;
+    }
+
+    body.light #navButton .toggle:before {
+        background: #ffffff;
+        color: #333333;
+    }
+
+    body.light #navPanel {
+        background: rgba(255, 255, 255, 0.8);
+    }
+
+    body.light #navPanel .link.depth-0 {
+        color: #333333;;
+    }
+
+    body.light h2,
+    body.light h3,
+    body.light h4,
+    body.light h5,
+    body.light h6 {
+        color: #333333;
+    }
+
+    body.light p {
+        color: #555555;
+    }
+
+    body.light #banner h2,
+    body.light #banner p {
+        color: #ffffff;
+    }
+
+    body.light .style1 .content {
+    background: #F2EFEF;
+    }
+
+    body.light .style2 .content {
+    background: #DDDCDC;
+    }
+
+    body.light .style3 .content {
+    background: #D4D4D4;
+    }
+
+    body.light .wrapper.style1 {
+    background: #F2EFEF;
+    }
+
+    body.light .button  {
+    border: 1px solid #555555;
+    color: #555555;
+    }
+
+    body.light .button:hover {
+    background-image: linear-gradient(144deg, #bb9afe, #8776ec 50%, #41d9e2);
+    }

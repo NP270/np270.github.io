@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Constant Preliminary Round - Results</title>
+  <link rel="stylesheet" href="assets/css/results_const.css">
+</head>
+<body>
+  <div class="tcontain">
+    <div class="table-container">
+      <div class="header">
+        <h2>Constant Preliminary Round - Results</h2>
+
+        <div class="controls">
+          <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <span class="icon"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="absolute left-3 top-1/2 -translate-y-1/2 text-foreground/50" data-pc-el-id="BsSearch-115-115" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"></path></svg></span>
+          </div>
+
+          <select id="statusFilter">
+            <option value="all">Sort By Status</option>
+            <option value="selected">Selected</option>
+            <option value="hold">Result Hold</option>
+            <option value="nonselected">Not-Selected</option>
+          </select>
+
+          <select id="sortField">
+            <option value="rank">Sort By Rank</option>
+            <option value="ap">Sort By Astrophysics</option>
+            <option value="cos">Sort By Cosmology</option>
+            <option value="gea">Sort By General Astronomy</option>
+            <option value="oba">Sort By Observational Astronomy</option>
+            <option value="roc">Sort By rocketry</option>
+          </select>
+
+          <button id="sortDirectionBtn"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" data-pc-el-id="BsArrowUp-145-145" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"></path></svg></button>
+        </div>
+      </div>
+
+      <div class="table-wrapper">
+        <table id="markstable">
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>School</th>
+              <th>Team ID</th>
+              <th>Status</th>
+              <th>Astrophysics</th>
+              <th>Cosmology</th>
+              <th>General Astronomy</th>
+              <th>Observational Astronomy</th>
+              <th>Rocketry</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Runtime JS -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/results_const.js"></script>
+</body>
+</html>
